@@ -1,7 +1,9 @@
 export interface IEventEntity {
     name: string;
     date: Date;
-    hour: number;
+    hour: string;
     description: string;
     value: number;
+    createdAt: Date;
+    updatedAt: Date;
 }
